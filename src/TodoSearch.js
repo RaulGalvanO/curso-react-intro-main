@@ -1,7 +1,12 @@
-function TodoSearch(){
-    return(
-      <input placeholder="cortar cebolla"/>
-    )
-  }
-  
-  export {TodoSearch};
+import './TodoSearch.css';
+
+function TodoSearch() {
+  return (
+    <input
+      placeholder="Cortar cebolla"
+      className="TodoSearch"
+    />
+  );
+}
+
+export { TodoSearch };
